@@ -1,17 +1,17 @@
-import React from 'react';
-import Banner from '../Banner/Banner';
-import Review from '../Review/Review';
-import Services from '../Services/Services';
+import React from "react";
+import Banner from "../Banner/Banner";
+import Location from "../Location/Location";
+import Review from "../Review/Review";
+import Services from "../Services/Services";
 const home = () => {
-    return (
-        <div>
-            <Banner></Banner>
-            <Services></Services>
-            <Review></Review>
-        </div>
-    );
+  return (
+    <div>
+      <Banner></Banner>
+      <Services></Services>
+      <Review></Review>
+      <Location></Location>
+    </div>
+  );
 };
 
 export default home;
-
-

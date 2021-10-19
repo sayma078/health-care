@@ -1,8 +1,20 @@
-import React from "react";
+import { getAuth, signOut } from "@firebase/auth";
+import React, { useContext } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../Context/AuthProvider";
 
 const Header = () => {
+  const [loginUser, setLoginUser] = useContext(AuthContext);
+
+  const handleLogout = () => {
+    const auth = getAuth();
+    signOut(auth)
+      .then(() => {
+        setLoginUser("");
+      })
+      .catch((error) => {});
+  };
   return (
     <div>
       <>
@@ -27,9 +39,16 @@ const Header = () => {
               <Nav.Link as={Link} to="/faq">
                 FAQ
               </Nav.Link>
-              <Nav.Link as={Link} to="/login">
-                Login
-              </Nav.Link>
+              {loginUser?.email ? (
+                <NavLink onClick={handleLogout} className="nav-link" to="/login">
+                  logOut {""}
+                  {loginUser?.displayName}
+                </NavLink>
+              ) : (
+                <NavLink class="nav-link" to="/login">
+                  login
+                </NavLink>
+              )}
             </Nav>
           </Container>
         </Navbar>

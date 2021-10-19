@@ -23,9 +23,13 @@ const GoogleLogin = () => {
         const credential = GoogleAuthProvider.credentialFromError(error);
       });
   };
-  return <div>
-      <button className="btn btn-info" onClick={googleHandler} >Sign In With Google</button>
-  </div>;
+  return (
+    <div>
+      <button className="btn btn-info" onClick={googleHandler}>
+        Sign In With Google
+      </button>
+    </div>
+  );
 };
 
 export default GoogleLogin;
