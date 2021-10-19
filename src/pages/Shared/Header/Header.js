@@ -40,12 +40,12 @@ const Header = () => {
                 FAQ
               </Nav.Link>
               {loginUser?.email ? (
-                <NavLink onClick={handleLogout} className="nav-link" to="/login">
+                <NavLink onClick={handleLogout} className="nav-link" as={Link} to="/login">
                   logOut {""}
                   {loginUser?.displayName}
                 </NavLink>
               ) : (
-                <NavLink class="nav-link" to="/login">
+                <NavLink className="nav-link" as={Link} to="/login">
                   login
                 </NavLink>
               )}
