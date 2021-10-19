@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Dental Surgery",
+      "img": "https://img.freepik.com/free-photo/close-up-shot-attentive-doctors-performing-surgical-operation-installing-dental-implants-into-patient-s-mouth-modern-dental-clinic_153228-1340.jpg?size=626&ext=jpg&ga=GA1.2.1002471192.1624492800",
+      "info": "",
+      "description": "Dental surgery is any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth, gums and jaw bones.More frequent than usual cleaning and examination may be necessary during the treatment of many different dental/oral disorders or due to recent surgical procedures such as dental implants. The American Dental Association (ADA) stresses that the frequency of dental visits necessary is dependent upon the needs of each individual with some able to go once or twice a year and others needing to go more often. This may include yearly, select dental X-rays. See also dental plaque identification procedure and removal."
+    },
+    {
+      "id": 2,
+      "name": "General Dentistry",
+      "img": "https://familychoicedentistry.com/wp-content/uploads/periodontics-1.jpg",
+      "info": "",
+      "description": "General Dentistry is a peer reviewed medical journal that publishes articles in a wide range of fields on like Endodontics, Orthodontics, Dental Implants, Prosthodontics, Restorative Dentistry, Oral and Maxillofacial Surgery, Periodontics, Forensic Dentistry, Digital Dentistry, Minimal Intervention Dentistry etc and creates a platform for the authors to make their contribution towards the journal. The editorial office promises peer review of the submitted manuscripts for the quality of publishing.Dentistry is one of the best open access journals that aims to publish the most complete and reliable source of information on discoveries and current developments in the mode of original articles, review articles, case reports, short communications, etc. in this field and provide online access without any restrictions or subscriptions to researchers worldwide."
+    },
+    {
+      "id": 3,
+      "name": "Implants",
+      "img": "https://images.squarespace-cdn.com/content/v1/5b760528372b9649ea0828f6/1603095654041-LQBJ9GO3O8DLQRNDDO8H/dental-implant-cost.jpg",
+      "info": "",
+      "description": "Dental implant surgery is a procedure that replaces tooth roots with metal, screwlike posts and replaces damaged or missing teeth with artificial teeth that look and function much like real ones. Dental implant surgery can offer a welcome alternative to dentures or bridgework that doesn't fit well and can offer an option when a lack of natural teeth roots don't allow building denture or bridgework tooth replacements.How dental implant surgery is performed depends on the type of implant and the condition of your jawbone. Dental implant surgery may involve several procedures. The major benefit of implants is solid support for your new teeth — a process that requires the bone to heal tightly around the implant. Because this bone healing requires time, the process can take many months."
+    },
+    {
+      "id": 4,
+      "name": "Alignment",
+      "img": "https://www.drdeclan.com/dimages/04876/case2450487631751.jpg",
+      "info": "",
+      "description": "“Harmonious function of the teeth, muscles, and temporomandibular joint” is the goal of proper teeth alignment, Dustin M. Deering, DDS, who practices cosmetic dentistry in Encinitas, Calif., tells WebMD Connect to Care. Your teeth should “come together simultaneously and evenly throughout the mouth,” Deering says. This harmonious, symmetric functioning of your teeth is the broad goal of orthodontic treatment, such as braces and clear dental aligners.Deering says “proper alignment is determined by the size and position of the supporting skeletal structure, and then, more specifically, a tooth’s size, shape, and position in the face and mouth.” When this alignment is off, there is a problem with your “bite.”"
+    },
+    {
+      "id": 5,
+      "name": "Teeth Braces",
+      "img": "https://www.dulwichdentaloffice.com/images/news_blog/news_blog_images/1542371338shift-teeth-with-braces.png",
+      "info": "",
+      "description": "Dental braces (also known as braces, orthodontic cases, or cases) are devices used in orthodontics that align and straighten teeth and help position them with regard to a person's bite, while also aiming to improve dental health. Braces also fix gaps. They are often used to correct underbites, as well as malocclusions, overbites, open bites, deep bites, cross bites, crooked teeth, and various other flaws of the teeth and jaw. Braces can be either cosmetic or structural. Dental braces are often used in conjunction with other orthodontic appliances to help widen the palate or jaws and to otherwise assist in shaping the teeth and jaws."
+    },
+    {
+      "id": 6,
+      "name": "Whitening",
+      "img": "https://www.deardoctor.com/images/blog/picture-comparing-teeth-whitening-300.jpg",
+      "info": "",
+      "description": "Tooth whitening or tooth bleaching is the process of lightening the color of human teeth. Whitening is often desirable when teeth become yellowed over time for a number of reasons, and can be achieved by changing the intrinsic or extrinsic color of the tooth enamel. The chemical degradation of the chromogens within or on the tooth is termed as bleaching.  Hydrogen peroxide (H2O2) is the active ingredient most commonly used in whitening products and is delivered as either hydrogen peroxide or carbamide peroxide. Hydrogen peroxide is analogous to carbamide peroxide as it is released when the stable complex is in contact with water. When it diffuses into the tooth, hydrogen peroxide acts as an oxidising agent that breaks down to produce unstable free radicals. In the spaces between the inorganic salts in tooth enamel, these unstable free radicals attach to organic pigment molecules resulting in small, less heavily pigmented components."
+    },
+    {
+      "id": 7,
+      "name": "Teeth Protection",
+      "img": "https://www.drelloway.com/wp-content/uploads/night-guards-2102.jpg",
+      "info": "",
+      "description": "A Protection is a protective device for the mouth that covers the teeth and gums to prevent and reduce injury to the teeth, arches, lips and gums. 'An effective Protection is like a ‘crash helmet’ for teeth and jaws. It also prevents the jaws coming together fully, thereby reducing the risk of jaw joint injuries and concussion.'A Protection is most often used to prevent injury in contact sports, as a treatment for bruxism or TMD, or as part of certain dental procedures, such as tooth bleaching or sleep apnea treatment. Depending on application, it may also be called a mouth protector, mouth piece, gumshield, gumguard, nightguard, occlusal splint, bite splint, or bite plane."
+    },
+    {
+      "id": 8,
+      "name": "Prosthesis",
+      "img": "https://durranidental.com/wp-content/uploads/2020/11/Dental-Prosthesis-durranidentalclinic.jpg",
+      "info": "",
+      "description": "In medicine, a prosthesis (plural: prostheses; from Ancient Greek prosthesis,addition, application, attachment) or prosthetic implant is an artificial device that replaces a missing body part, which may be lost through trauma, disease, or a condition present at birth (congenital disorder). Prostheses are intended to restore the normal functions of the missing body part. Amputee rehabilitation is primarily coordinated by a physiatrist as part of an inter-disciplinary team consisting of physiatrists, prosthetists, nurses, physical therapists, and occupational therapists.Prostheses can be created by hand or with computer-aided design (CAD), a software interface that helps creators design and analyze the creation with computer-generated 2-D and 3-D graphics as well as analysis and optimization tools."
+    }
+  ]
