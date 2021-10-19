@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { Link } from "react-router-dom";
 import initializeAuthentication from "../Firebase/firebase.init";
 import GoogleLogin from "../GoogleLogin/GoogleLogin";
+import { AuthContext } from "../../../Context/AuthProvider";
+
 
 initializeAuthentication();
 
@@ -15,6 +17,7 @@ const Signin = () => {
   });
   const [success, setSuccess] = useState('');
       const [errorMsg, setErrorMsg] = useState('');
+      const [loginUser, setLoginUser] = useContext(AuthContext);
   const getInputValue = (e) => {
     const getValue = { ...user };
     getValue[e.target.name] = e.target.value;
@@ -26,6 +29,7 @@ const Signin = () => {
       signInWithEmailAndPassword(auth, user.email, user.password)
         .then((userCredential) => {
           const user = userCredential.user;
+          setLoginUser(user);
           setSuccess('Signin success')
                 setErrorMsg('');
         })
