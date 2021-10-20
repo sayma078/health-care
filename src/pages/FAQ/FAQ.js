@@ -4,7 +4,7 @@ import img from "../../images/banner/banner-2.jpg";
 
 const FAQ = () => {
   return (
-    <div >
+    <div className="container mt-5">
       <h2>Frequently Asked Questions</h2>
       <div className="row mt-5 p-5 d-flex justify-content-center bg-warning">
       <div className=" col-md-4">
