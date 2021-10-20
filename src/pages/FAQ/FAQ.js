@@ -4,13 +4,13 @@ import img from "../../images/banner/banner-2.jpg";
 
 const FAQ = () => {
   return (
-    <div>
+    <div >
       <h2>Frequently Asked Questions</h2>
-      <div className="container mt-5 p-5 d-flex justify-content-center bg-warning">
-      <div className="mt-5">
-        <img src={img} alt="" />
+      <div className="row mt-5 p-5 d-flex justify-content-center bg-warning">
+      <div className=" col-md-4">
+        <img className="w-100"  src={img} alt="" />
       </div>
-      <div className="mx-3">
+      <div className="mx-3 mt-3 col-md-8 ">
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>
